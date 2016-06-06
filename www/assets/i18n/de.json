@@ -1,0 +1,8 @@
+{
+  "key" : "Übersetzung für Key",
+  "nested": {
+    "user": "Benutzer",
+    "signIn": "Einloggen",
+    "signUp": "Registrieren"
+  }
+}
