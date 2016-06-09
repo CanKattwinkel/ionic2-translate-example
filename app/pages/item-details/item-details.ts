@@ -1,8 +1,10 @@
-import {Page, NavController, NavParams} from 'ionic-angular';
+import {NavController, NavParams} from 'ionic-angular';
+
+import {Component} from "@angular/core";
 
 
-@Page({
-  templateUrl: 'build/pages/item-details/item-details.html'
+@Component({
+  templateUrl: 'build/pages/item-details/item-details.html',
 })
 export class ItemDetailsPage {
   selectedItem: any;

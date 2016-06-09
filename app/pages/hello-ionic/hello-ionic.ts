@@ -1,8 +1,8 @@
-import {Page} from 'ionic-angular';
 import {TranslatePipe} from "ng2-translate/ng2-translate";
+import {Component} from "@angular/core";
 
 
-@Page({
+@Component({
     templateUrl: 'build/pages/hello-ionic/hello-ionic.html',
     pipes: [TranslatePipe]
 })
