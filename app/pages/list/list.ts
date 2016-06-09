@@ -1,10 +1,12 @@
 import {NavController, NavParams} from 'ionic-angular';
 import {ItemDetailsPage} from '../item-details/item-details';
 import {Component} from "@angular/core";
+import {TranslatePipe} from "ng2-translate/ng2-translate";
 
 
 @Component({
-  templateUrl: 'build/pages/list/list.html'
+  templateUrl: 'build/pages/list/list.html',
+  pipes: [TranslatePipe]
 })
 export class ListPage {
   selectedItem: any;
